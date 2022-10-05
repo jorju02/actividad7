@@ -46,11 +46,11 @@ if ($mysqli->connect_errno) {
     while ($row = $resultado->fetch_assoc()) {
 
       echo "<tr>
-      <td><a href='Ver.php?dni=". $row['dni']."'>" . $row['dni'] . "</a></td>"
-        . "<td>" . $row['nombre'] . "</td>
+        <td><a href='Ver.php?dni=" . $row['dni'] . "'>" . $row['dni'] . "</a></td>"
+        . "<td>" . $row['nombre'] . "</td>" . "<td><a href='Eliminar.php?dni=" . $row['dni'] . "'>Eliminar</a></td>"
+        . "<td><a href='Editar.php?dni=" . $row['dni'] . "'>Editar</a></td>
      </tr>";
     }
-
     ?>
 
   </table>

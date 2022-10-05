@@ -51,11 +51,11 @@ if ($mysqli->connect_errno) {
 
             echo "<tr>
                     <td>" . $row['dni'] . "</td>"
-                    . "<td>" . $row['nombre'] . "</td>"
-                    . "<td>" . $row['apellido'] . "</td>"
-                    . "<td>" . $row['email'] . "</td>"
-                    . "<td>" . $row['codMatricula'] . "</td>"
-                    . "<td>" . $row['ciclo'] . "</td>"
+                . "<td>" . $row['nombre'] . "</td>"
+                . "<td>" . $row['apellido'] . "</td>"
+                . "<td>" . $row['email'] . "</td>"
+                . "<td>" . $row['codMatricula'] . "</td>"
+                . "<td>" . $row['ciclo'] . "</td>"
                 . "</tr>";
         }
 
