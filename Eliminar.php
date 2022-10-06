@@ -37,14 +37,15 @@
         $sentencia->close();
 
 
-        echo "ELIMINADO CORRECTAMENTE" . "<br>";
+        echo "<h1>ELIMINADO CORRECTAMENTE</h1>";
     } else {
         echo ("<br>Error en parametros<br>");
     }
-
+    
+        header("Location: Inicio.php");
 
     ?>
-    <a href="javascript:history.back()"> Volver Atrás</a>
+   
 
 </body>
 

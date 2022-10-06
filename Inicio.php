@@ -26,6 +26,12 @@ if ($mysqli->connect_errno) {
 
     table {
       width: 50%;
+      
+    }
+    .btAnadir{
+      color: black;
+      text-decoration: none
+      
     }
   </style>
 </head>
@@ -55,7 +61,7 @@ if ($mysqli->connect_errno) {
 
   </table>
 
-
+  <button><a class="btAnadir" href="Anadir.php">AÑADIR UNO NUEVO</a></button>
 
 </body>
 
