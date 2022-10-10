@@ -40,6 +40,7 @@ if ($mysqli->connect_errno) {
             <th>Email</th>
             <th> Codigo Matricula</th>
             <th>Ciclo</th>
+            <th>DNI Profesor</th>
         </tr>
         <?php
 
@@ -56,6 +57,7 @@ if ($mysqli->connect_errno) {
                 . "<td>" . $row['email'] . "</td>"
                 . "<td>" . $row['codMatricula'] . "</td>"
                 . "<td>" . $row['ciclo'] . "</td>"
+                . "<td>" . $row['dniDocente'] . "</td>"
                 . "</tr>";
         }
 

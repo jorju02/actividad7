@@ -26,12 +26,12 @@ if ($mysqli->connect_errno) {
 
     table {
       width: 50%;
-      
+
     }
-    .btAnadir{
+
+    .btAnadir {
       color: black;
       text-decoration: none
-      
     }
   </style>
 </head>

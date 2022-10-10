@@ -41,11 +41,11 @@
     } else {
         echo ("<br>Error en parametros<br>");
     }
-    
-        header("Location: Inicio.php");
+
+    header("Location: Inicio.php");
 
     ?>
-   
+
 
 </body>
 
